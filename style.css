@@ -35,3 +35,9 @@ header {
   background-color: lightgray;
   border-radius: 10px;
 }
+
+
+main img {
+  height: 300px;
+}
+
