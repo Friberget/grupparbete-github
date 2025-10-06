@@ -1,4 +1,4 @@
-.logo-nav p {
+﻿.logo-nav p {
   background: cadetblue;
   color: white;
   font-size: 30px;
@@ -36,8 +36,53 @@ header {
   border-radius: 10px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
 
 main img {
   height: 300px;
+  max-width: 50%;
 }
 
+main p {
+  font-size: 20px;
+  margin: 20px;
+  line-height: 1.6;
+  max-width: 50%;
+}
+
+figure {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-text {
+  flex: 1 1 320px;
+}
+
+.about-text p {
+  margin: 20px 0 0;
+  max-width: none;
+}
+
+.about-content figure {
+  flex: 1 1 320px;
+  margin-top: 0;
+}
+
+.about-content img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
