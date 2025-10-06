@@ -20,10 +20,18 @@
   margin-left: 20px;
 }
 
-.logo-nav a {
-  text-decoration: none;
-}
-
 header {
   background: rgb(121, 175, 209);
+}
+
+.logo-nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+}
+
+.logo-nav a:hover {
+  background-color: lightgray;
+  border-radius: 10px;
 }
