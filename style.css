@@ -1,0 +1,14 @@
+.logo p {
+  background: cadetblue;
+  color: white;
+  font-size: 30px;
+  width: 120px;
+  height: 50px;
+  border: solid 2px black;
+  border-radius: 120px;
+  border-color: lightpink;
+  border-width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
